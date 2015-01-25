@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="app_name">Mutibo</string>
+    
+    <!-- Login Screen / Register User Screen -->
+    <string name="userHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="guestButton">Guest</string>
+    <string name="registerButton">Register</string>
+    <string name="confirmPassword">Confirm Password</string>
+    
+    <!-- Main Menu Screen -->
+    <string name="play">Play</string>
+    <string name="createSet">Create Set</string>
+    <string name="leaderboards">Leaderboards</string>
+    <string name="logoutMenu">Logout</string>
+    <string name="AmazonGameCircle">Amazon Game Circle</string>
+    <string name="helpButtonMenu">Help</string>
+    <string name="achievementsImageButton">Achievements Button</string>
+    <string name="leaderboardsImageButton">Leaderboards Button</string>
+    
+    <!-- Game Screen -->
+    <string name="pointsLabel">0</string>
+    <string name="nextQuestion">Next</string>
+    <string name="descriptionImage">Life</string>
+    <string name="multiplierBase">x1</string>
+    <string name="powerUpPassDesc">Pass Set</string>
+    <string name="powerUpfiftyfiftyDesc">Fifty and Fifty</string>
+    <string name="powerUpSaveLifeDesc">Save Life</string>
+    
+    <!-- Game Over Screen -->
+    <string name="gameOver_playAgain">Play Again</string>
+    <string name="gameOver_mainMenu">Main Menu</string>
+    <string name="gameOver_scoreLabel">Your Score:</string>
+    
+    <!-- Create Set Screen -->
+    <string name="createSetQuestion">Set question</string>
+    <string name="createSetCorrectAnswer">Set correct answer</string>
+    <string name="createSetWrongAnswer1">Set wrong answer</string>
+    <string name="createSetWrongAnswer2">Set wrong answer</string>
+    <string name="createSetWrongAnswer3">Set wrong answer</string>
+    <string name="createSetExplanation">Set explanation</string>
+    <string name="createSetHint">Set hint</string>
+    <string name="createSetFinish">Create!</string>
+    
+    <!-- Help Screen -->
+    <string name="rulesSectionTitle">Rules:</string>
+    <string name="rulesSectionParagraph">
+        "Find the odd movie between four titles.\nYou will have three lives, power-ups and bonus multiplier!"
+    </string>
+    <string name="powerUpSectionTitle">Power-Ups:</string>
+    <string name="helpShowHidePowerUps">Show / Hide power-ups</string>
+    <string name="helpPassSetDesc">Pass current set</string>
+    <string name="helpFaFDesc">Show only two titles.</string>
+    <string name="helpSaveLifeDesc">Save a life for current set.</string>
+    <string name="ratingSectionParagraph">After completing a set, rate it!</string>
+    <!-- Colors -->
+    <color name="customRed">#E12506</color>
+    <color name="customGreen">#70BF41</color>
+    <color name="customBlue">#0365C0</color>
+    <color name="gold">#FFD700</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="highlight_color_filter">#A5FF0000</color>
+</resources>

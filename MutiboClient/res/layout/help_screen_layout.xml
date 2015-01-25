@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".HelpScreenActivity" >
+
+    <TextView
+        android:id="@+id/rulesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/rulesSectionTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/rulesContent"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rulesSectionParagraph" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:text="@string/powerUpSectionTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableLayout
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="2"
+        android:rowCount="4" >
+
+        <TableRow>
+            <ImageView
+                android:contentDescription="@string/powerUpPassDesc"
+                android:src="@drawable/ic_powerup" />
+            <TextView
+                android:layout_gravity="center|left"
+                android:text="@string/helpShowHidePowerUps" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:contentDescription="@string/powerUpPassDesc"
+                android:src="@drawable/ic_pu_nextset" />
+            <TextView
+                android:layout_gravity="center|left"
+                android:text="@string/helpPassSetDesc" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:contentDescription="@string/powerUpfiftyfiftyDesc"
+                android:src="@drawable/ic_pu_fiftyandfifty" />
+            <TextView
+                android:layout_gravity="center|left"
+                android:text="@string/helpFaFDesc" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:contentDescription="@string/powerUpSaveLifeDesc"
+                android:src="@drawable/ic_pu_image_save_life" />
+
+            <TextView
+                android:layout_gravity="center|left"
+                android:text="@string/helpSaveLifeDesc" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="50dp" >
+
+        <TextView
+            android:id="@+id/ratingHelp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ratingSectionParagraph" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal|fill_vertical"
+    android:orientation="vertical"
+    tools:context=".CreateSetActivity" >
+    
+    <TextView
+        android:id="@+id/setCreationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="@string/createSet"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/setCreationQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+		android:width="275dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/createSetQuestion" />
+
+    <EditText
+        android:id="@+id/setCreationCorrectAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+		android:width="275dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/createSetCorrectAnswer" />
+
+    <EditText
+        android:id="@+id/setCreationWrongAnswer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+		android:width="275dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/createSetWrongAnswer1" />
+
+    <EditText
+        android:id="@+id/setCreationWrongAnswer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+		android:width="275dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/createSetWrongAnswer2" />
+
+    <EditText
+        android:id="@+id/setCreationWrongAnswer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+		android:width="275dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/createSetWrongAnswer3"/>
+
+    <EditText
+        android:id="@+id/setCreationExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+		android:width="275dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/createSetExplanation" />
+
+    <Button
+        android:id="@+id/setCreationFinishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/gold"
+        android:text="@string/createSetFinish"
+        android:layout_marginTop="100dp"
+        android:width="200dp" />
+
+</LinearLayout>
